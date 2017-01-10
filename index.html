@@ -74,6 +74,9 @@
 		<script src="./jquery.scrollify.min.js"></script>
 		<script>
 			$(function() {
+				   $("section").css({
+        "height": $(window).height()
+    });
 				$.scrollify({
 						section : "section",
 				});
